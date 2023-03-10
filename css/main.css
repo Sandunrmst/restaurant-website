@@ -255,3 +255,53 @@ body{
   
 /** MAIN END**/
 
+/** FOOTER **/
+
+.home-footer{
+    background-color: #202020;
+    padding-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.home-footer .hours, .home-footer .address, .home-footer .testimonials{
+    color: rgb(245, 245, 245);
+}
+
+.home-footer .hs, .home-footer .as{
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #557c3e;
+}
+
+.home-footer .footer-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e0e0e;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #557c3e;
+    text-decoration: none !important;
+    margin-top: 10px;
+} 
+
+.home-footer .copy{
+    margin-bottom: -1px;
+}
+
+@media (max-width: 767px) {
+    .home-footer {
+      text-align: center;
+    }
+
+    .home-footer .hours, .home-footer .address, .home-footer .testimonials{
+        padding: 34px;
+    }
+
+  }
+
+/** FOOTER END **/
+
