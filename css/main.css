@@ -3,6 +3,8 @@ body{
     background-color: #951C49 !important;
 }
 
+/** HEADER **/
+
 .bg-nav{
     background-color: #f6b319 !important;
 }
@@ -73,8 +75,8 @@ body{
     overflow: hidden;
     border-style: solid;
     border-width: 3px;
-    border-radius: 20px;
-    border-color: #951C49;
+    border-radius: 8px;
+    border-color: #ffd87b;
     transition : background-color 1s;
 }
 
@@ -85,6 +87,33 @@ body{
 .navbar-nav .bi-size{
     font-size: 1.2em;
 
+}
+
+.call-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f6b319;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: #ffffff;
+    color: #951C49;
+
+}
+
+.call-mobile .call-us{
+    color: #567c3f;
+}
+
+.tel-info {
+    margin-top: 15px;
+}
+
+.tel-info .call-mobile .tel{
+    margin-right: 12px;
 }
 
 @media (max-width: 767.98px) { 
@@ -103,9 +132,9 @@ body{
         overflow: hidden;
         border-style: solid;
         border-width: 3px;
-        border-radius: 20px;
+        border-radius: 8px;
         border-color: #951C49;
-        background-color: #ffecec;
+        background-color: #ffffff;
     }
 
     .navbar-nav .tel-bg :hover{
@@ -113,3 +142,67 @@ body{
     }
 
 }
+
+
+
+/** HEADER END**/
+
+/** MAIN **/
+
+#main-content{
+    margin-top: 15px;
+}
+
+.jumbotron{
+    border-radius: 10px;
+    border-color: #f6b319;
+    border-style: solid;
+    border-width: 4px;
+    overflow: hidden;
+
+}
+
+
+
+@media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url('../images/jumbotron_1200.jpg') no-repeat;
+      height: 675px;
+      /* background-size:contain; */
+      background-size: cover;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+   
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/jumbotron_992.jpg') no-repeat;
+      height: 558px;
+      background-size: cover;
+    /* End Home Page */
+  }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/jumbotron_768.jpg') no-repeat;
+      height: 432px;
+    }
+    /* End Home Page */
+  
+  }
+
+  @media (max-width: 767px) {
+    .container .jumbotron {
+      background: url('../images/jumbotron_768.jpg') no-repeat;
+      height: 432px;
+      /* background-size:contain; */
+      background-size: cover;
+    }
+  }
+  
+/** MAIN END**/
+
