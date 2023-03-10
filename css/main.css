@@ -299,6 +299,7 @@ body{
 
     .home-footer .hours, .home-footer .address, .home-footer .testimonials{
         padding: 34px;
+        margin-top: -50px;
     }
 
   }
