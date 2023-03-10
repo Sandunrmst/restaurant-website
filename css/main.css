@@ -200,7 +200,7 @@ body{
       background: url('../images/jumbotron_768.jpg') no-repeat;
       height: 432px;
       /* background-size:contain; */
-      background-size: cover;
+      background-size: cover; 
     }
   }
   
